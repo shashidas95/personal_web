@@ -1,4 +1,74 @@
-## About this project
+# Personal Web
+
+A personal web application built with the **Laravel** framework.
+
+## 🚀 Features
+
+* **Backend:** PHP (Laravel)
+* **Frontend:** Blade Templating, CSS
+* **Package Management:** Composer & NPM
+* **Environment Configuration:** Dotenv support
+
+## 🛠️ Tech Stack
+
+* **Language:** PHP 8.x
+* **Framework:** Laravel
+* **Styling:** CSS / Blade
+* **Database:** Supported by Eloquent ORM (MySQL/PostgreSQL/SQLite)
+
+## 💻 Getting Started
+
+### Prerequisites
+
+* PHP >= 8.1
+* Composer
+* Node.js & NPM
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/shashidas95/personal_web.git](https://github.com/shashidas95/personal_web.git)
+    cd personal_web
+    ```
+
+2.  **Install PHP dependencies**
+    ```bash
+    composer install
+    ```
+
+3.  **Install Frontend dependencies**
+    ```bash
+    npm install && npm run dev
+    ```
+
+4.  **Configure Environment**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+5.  **Run Migrations**
+    ```bash
+    php artisan migrate
+    ```
+
+6.  **Start the Server**
+    ```bash
+    php artisan serve
+    ```
+
+## 📂 Project Structure
+
+* `app/` - Core framework code
+* `public/` - Assets (Images, compiled JS/CSS)
+* `resources/` - Views (Blade files) and raw assets
+* `routes/` - All application routes
+* `database/` - Migrations and seeders
+
+---
+
+
 
 ### demo video limk: https://drive.google.com/file/d/1xy_W4AvYLNazccTuNXkyxbzDNjXUbjdO/view?usp=sharing
 
@@ -108,22 +178,6 @@ VALUES
 (1, '', '', 'Dhaka University', '2014-01-01', '2016-12-31', 'Master of Science completed with focus on Software Engineering.', 'education', 'M.Sc', 'Software Engineering', NOW(), NOW());
 (1, '', '', 'Dhaka University', '2010-01-01', '2013-12-31', 'Bachelor of Science completed with focus on Computer Science.', 'education', 'B.Sc', 'Computer Science', NOW(), NOW()),
 (1, '', '', 'Dhaka College', '2008-01-01', '2010-12-31', 'Completed Higher Secondary Certificate with science specialization.', 'education', 'Higher Secondary', 'Science', NOW(), NOW()),
-
-
 ```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-#
+**Author:** [Shashi Kanta Das](https://github.com/shashidas95)
